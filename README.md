@@ -37,9 +37,9 @@ This gets your workspace going
 
 ##### Modifications
 You will have to set the following before the LRWAN node gets talking to any  of your gateway
-file: config.h
+file: Commissioning.h
 1. set LORAWAN_APP_KEY as per your vendor/ gateway.
-2. CONFIG_IEEE_OUI is the **3** byte prefix. Set this to *anything* if its your local gateway. 
+2. IEEE_OUI is the **3** byte prefix. Set this to *anything* if its your local gateway. 
 3. LORAWAN_DEVICE_EUI as per your vendor/ gateway.
 
 #### Build and Flash it to your board.
