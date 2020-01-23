@@ -1,0 +1,4 @@
+13:11:35 **** Clean-only build of configuration Debug for project sx1262dvk1das ****
+make clean 
+rm -rf *
+ 
